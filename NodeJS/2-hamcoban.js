@@ -9,3 +9,9 @@ if(diem >5){
 for(var i = 1; i<=10; i++){
     console.log("Dong thu: ",i)
 }
+
+var dong = 1;
+while(dong <=5){
+    console.log("line number: ",dong);
+    dong = dong+1;
+}
