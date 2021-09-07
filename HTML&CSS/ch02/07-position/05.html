@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Examble05</title>
+	<style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block{
+            width: 600px;
+            margin:  20px auto;
+            height: 800px;
+            border: 2px solid rgb(235, 71, 22);
+            background: url(bacg1.jpeg) top center no-repeat;
+            z-index: 900;
+        }
+
+        .overplay{
+            width: 100%;
+            height: 100%;
+            background-color: cornflowerblue;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            opacity: 0.4; /*lam anh mo di*/
+            filter: alpha(opacity=40); /*Ho tro hien thi cho cac IE duoc tot*/
+            z-index: 1000;
+        }
+
+        .white-box{
+            height: 300px;
+            width: 800px;
+            background-color: cornsilk;
+            border: 5px solid #f00;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            margin-top: -150px;
+            margin-left: -400px;
+            z-index: 1100;
+        }
+
+        </style>
+</head>
+<body>
+	
+    <div class="block">     
+    </div>
+
+    <div class="overplay">
+        <div class="white-box">
+            <h1>Hello pop up easy</h1>
+        </div>
+    </div>
+    
+
+</body>
+</html>

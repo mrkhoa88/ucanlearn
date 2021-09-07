@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Examble04</title>
+	<style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block{
+            width: 400px;
+            margin:  50px auto;
+            height: 250px;
+            border: 2px solid rgb(92, 165, 224);
+            position: relative;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .boxA{
+            background-color: cadetblue;
+            position: absolute;
+            left: 40px;
+            top: 100px;
+            z-index: 1002; /*so nao lon thi box do nam tren*/
+
+        }
+
+        .boxB{
+            background-color: rgb(24, 172, 91);
+            position: absolute;
+            left: 100px;
+            top: 125px;
+            z-index: 999;
+
+        }
+
+        .boxC{
+            background-color: rgb(26, 23, 202);
+            position: absolute;
+            left: 160px;
+            top: 55px;
+            z-index: 1001;
+
+        }
+
+        .boxD{
+            background-color: rgb(173, 22, 179);
+            position: absolute;
+            left: 180px;
+            top: 140px;
+            z-index: 1000;
+
+        }
+
+        </style>
+</head>
+<body>
+	
+    <div class="block">
+        <div class="box boxA">Box a</div>
+        <div class="box boxB">Box B</div>
+        <div class="box boxC">Box C</div>
+        <div class="box boxD">Box D</div>
+    </div>
+
+</body>
+</html>

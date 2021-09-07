@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Examble02</title>
+	<style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .block{
+            width: 800px;
+            margin:  20px auto;
+            height: 250px;
+            border: 2px solid rgb(92, 165, 224);
+        }
+
+        .menu{
+            list-style-position: inside; /*Vi tri Icon* css list style type tren google*/
+            list-style-type: circle;
+            /* list-style-image: ; dung hinh anh lam icon*/
+            width: 200px;
+            margin: 20px;
+            
+            
+        }
+
+        .menu li{
+            border: 1px solid rgb(66, 192, 150);
+            margin-bottom: 2px;
+            padding: 3px 3px 3px 15px;
+        }
+        .menu li.active{
+            background-color: cadetblue;
+        }
+        </style>
+</head>
+<body>
+	
+    <div class="block">
+        <ul class="menu">
+            <li>Home</li>
+            <li class="active">About</li>
+            <li>Product</li>
+            <li>SP Dac Biet</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+</body>
+</html>
